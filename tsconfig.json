@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es5",  
+    "module": "commonjs", 
+    "strict": true,
+    "allowJs": true,
+    "moduleResolution": "node",
+    "lib" : [
+      "dom",
+      "es5",
+      "es2015.promise"
+    ],
+    "sourceMap": true
+  },
+  "exclude": [
+    "node_modules"
+  ],
+  "include": [
+    "src/**/*"
+  ]
+}

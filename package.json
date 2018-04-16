@@ -1,0 +1,26 @@
+{
+  "name": "vue-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ./node_modules/webpack/bin/webpack --config ./config/webpack.config.dev.js --watch --process"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CKHuang/vue-typescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CKHuang/vue-typescript/issues"
+  },
+  "homepage": "https://github.com/CKHuang/vue-typescript#readme",
+  "devDependencies": {
+    "ts-loader": "^4.2.0",
+    "tslint": "^5.9.1",
+    "tslint-loader": "^3.6.0",
+    "typescript": "^2.8.1",
+    "webpack": "^4.5.0"
+  }
+}
