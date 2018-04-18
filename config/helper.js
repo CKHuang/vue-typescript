@@ -4,6 +4,7 @@ const path = require('path');
 const ROOT = path.resolve(__dirname,'..');
 
 function root(_path) {
+    _path = _path || '';
     return path.join.apply(path,[ROOT,_path]);
 }
 

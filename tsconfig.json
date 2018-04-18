@@ -4,18 +4,25 @@
     "module": "commonjs", 
     "strict": true,
     "allowJs": true,
+    "removeComments": true,
     "moduleResolution": "node",
+    "experimentalDecorators":true,
     "lib" : [
       "dom",
       "es5",
       "es2015.promise"
     ],
+    "baseUrl": "./",
+    "paths": {
+      "common/*" : ["./src/common/*"]
+    },
     "sourceMap": true
   },
+  "listFiles":true,
   "exclude": [
-    "node_modules"
+    "./node_modules"
   ],
   "include": [
-    "src/**/*"
+    "./src/**/*"
   ]
 }

@@ -1,2 +1,9 @@
+import List from './component/List.vue'
+import Vue from 'vue'
 
-const hello : string = 'world';
+const init = new Vue({
+    render : h => h(List)
+})
+
+
+
